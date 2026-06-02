@@ -13,5 +13,22 @@
         <maven.compiler.target>26</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
 
+        <!-- Lombok: @Getter, @Setter, @NoArgsConstructor, @AllArgsConstructor, etc. -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.46</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Spring Context: ApplicationContext, @Configuration, @Bean, @Component, @Autowired -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>7.0.7</version>
+        </dependency>
+
+    </dependencies>
 </project>
